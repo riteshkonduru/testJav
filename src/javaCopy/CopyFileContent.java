@@ -7,7 +7,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-//hello.
+//hello
 public class CopyFileContent {
 
 	public static void main(String[] args) {
