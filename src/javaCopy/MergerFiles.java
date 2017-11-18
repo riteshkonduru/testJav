@@ -13,8 +13,8 @@ public class MergerFiles {
 		//String sourceFile2Path = "/home/programcreek/Desktop/s2";
 		//String mergedFilePath = "/home/programcreek/Desktop/m";
 		
-		String sourceFolder = "C://Src//TestClasses";//"C://Src";//"C://Users//rkonduru//workspace//LOC//src//classes";
-		String mergedFilePath = "C://Src//Copied//classOnlyTest.txt";
+		String sourceFolder = "C://Src//hit";//"C://Src";//"C://Users//rkonduru//workspace//classes";
+		String mergedFilePath = "C://Src//Copied//classOnl.txt";
 		
 		File sFile = new File(sourceFolder);
 		
@@ -22,7 +22,7 @@ public class MergerFiles {
 			
 			@Override
 			public boolean accept(File dir, String name) {
-				if(name.endsWith(".cls") && name.startsWith("LOC_")) {// change this to your extension
+				if(name.endsWith(".cls") && name.startsWith("Jiu_")) {// change this to your extension
 					return true;
 				}else {
 					return false;

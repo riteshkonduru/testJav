@@ -16,7 +16,7 @@ public class CopyFilesWithExtension {
 	
 	public static void main(String[] args) {
 		
-		String sourceFolder = "C://Users//rkonduru//workspace//LOC//src//classes";
+		String sourceFolder = "C://Users//rkonduru//workspace//classes";
 		String targetFolder = "C://Src";
 		
 		File sFile = new File(sourceFolder);
@@ -25,7 +25,7 @@ public class CopyFilesWithExtension {
 			
 			@Override
 			public boolean accept(File dir, String name) {
-				if(name.endsWith(".cls") && name.startsWith("LOC_")) {// change this to your extension
+				if(name.endsWith(".cls") && name.startsWith("yi_")) {// change this to your extension
 					return true;
 				}else {
 					return false;

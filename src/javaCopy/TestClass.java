@@ -17,7 +17,7 @@ public class TestClass {
 	public static void main(String[] args) {
 		
 		String sourceFolder = "C://Src//";
-		String targetFolder = "C://Src//TestClasses";
+		String targetFolder = "C://Src//Tlasses";
 		
 		File sFile = new File(sourceFolder);
 		// Find files with specified extension
@@ -25,7 +25,7 @@ public class TestClass {
 			
 			@Override
 			public boolean accept(File dir, String name) {
-				if(name.endsWith("_Test.cls") && name.startsWith("LOC_")) {// change this to your extension
+				if(name.endsWith("_KIO.cls") && name.startsWith("JIU_")) {// change this to your extension
 					return true;
 				}else {
 					return false;

@@ -17,7 +17,7 @@ public class CopyFilesApex {
 	
 	public static void main(String[] args) {
 		
-		//String sourceFolder = "C://Users//rkonduru//workspace//LOC//src//pages";
+		//String sourceFolder = "C://Users//rkonduru//workspace//pages";
 		//String targetFolder = "C://Src//Pages";
 		
 		
@@ -30,7 +30,7 @@ public class CopyFilesApex {
 			e.printStackTrace();
 		}
 		
-		String sourceFolder = "/Users/rkonduru/Desktop/copy1";//LOC_text.page
+		String sourceFolder = "/Users/rkonduru/Desktop/copy1";//text.page
 		String targetFolder = "/Users/rkonduru/Desktop/copy1 copy";
 		System.out.println(sourceFolder);
 		
@@ -41,7 +41,7 @@ public class CopyFilesApex {
 			
 			@Override
 			public boolean accept(File dir, String name) {
-				if(name.endsWith(".page") && name.startsWith("LOC_")) {// change this to your extension
+				if(name.endsWith(".page") && name.startsWith("Hello")) {// change this to your extension
 					return true;
 				}else {
 					return false;
